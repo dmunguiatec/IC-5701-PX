@@ -44,7 +44,7 @@ Diseñar un lenguaje de programación con características mínimas para ser Tur
 6. Implementar las estructuras de datos del AST en el paquete `edu.ic5701.ast`.
 7. Modificar el parser para que retorne un AST correspondiente al código reconocido o reporte errores sintácticos. Modificar `edu.ic5701.Compiler.main` para que imprima en stdout el AST producido por el parser.
 8. Documentar la especificación semántica operativa del lenguaje en `docs/04 SEMANTICA.md`.
-9. Implementar un analizador semántico en el paquete `edu.ic5701.sem`, este debe reportar errores semánticos.
+9. Implementar un analizador semántico en el paquete `edu.ic5701.sem`, este debe reportar errores semánticos. Modificar `edu.ic5701.Compiler.main` para que invoque al analizador semántico después del análisis sintáctico.
 10. Documentar las reglas de traducción del lenguaje fuente al lenguaje objetivo en `docs/05 TRADUCCIÓN.md`.
 11. Implementar un generador de código para el lenguaje siguiendo las reglas en `docs/05 TRADUCCIÓN.md` en el paquete `edu.ic5701.gen`. Modificar `edu.ic5701.Compiler.main` para que produzca un archivo de código ejecutable que tenga el mismo nombre que el archivo fuente recibido con extensión `.out`.
 
